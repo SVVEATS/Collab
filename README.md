@@ -1,3 +1,14 @@
-# Collab
+#include <stdio.h>
 
-This repository is for the creation of a collaborative project written in C.
+int main() {
+    char answer [8];
+    printf("Lets get this bred?");
+    scanf("%s",answer);
+    if (!strcmp(answer, "no")){
+        printf("YOU BITCH");
+    }
+    else{
+        printf("FuCk yEAh BaBY");
+    }
+    return 0;
+}
